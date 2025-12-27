@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main box */
+.container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Amount */
+.amount p {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.amount input {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* Dropdown section */
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.from,
+.to {
+  width: 45%;
+}
+
+.dropdown p {
+  margin-bottom: 0.4rem;
+  color: #555;
+}
+
+/* Select + flag */
+.select-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.3rem 0.5rem;
+}
+
+.select-container img {
+  width: 32px;
+  height: auto;
+  margin-right: 0.5rem;
+}
+
+.select-container select {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Swap icon */
+.dropdown i {
+  font-size: 1.2rem;
+  color: #4facfe;
+  cursor: pointer;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 0.7rem;
+  background: #4facfe;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #00c6ff;
+}
+
+/* Result text */
+.msg {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+/*swap icon*/
+.swap-icon {
+  font-size: 1.3rem;
+  color: #4facfe;
+  cursor: pointer;
+  margin-top: 1.2rem;
+}
+
+
+
+
